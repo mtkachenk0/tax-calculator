@@ -17,8 +17,10 @@ ruby tax_calculator_cli.rb fixtures/input3.txt
 ```bash
 # Run all tests
 ruby -Ilib:test -e 'Dir["test/**/*_test.rb"].each { require_relative File.expand_path(_1) }'
+```
 
 # Run a specific test
+```
 $ ruby <path_to_test_file>
 # Example:
 ruby test/tax_calculator_test.rb
