@@ -1,0 +1,2 @@
+invalid line without price
+1 book at twelve
